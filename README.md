@@ -1,7 +1,7 @@
 Agilla2 - IDS
 =======
 
-Introduction of TKN15.4 support and an intrusion detection tecnique in the porting of Agilla (a MW for WSN) from TinyOS_1.x to TinyOS_2.x. (L. Pomante, S. Marchesani, D. Gregori, L. Corradetti, W. Tiberti, S. Pace).
+Introduction of TKN15.4 support and an intrusion detection system (IDS) in the porting of Agilla (a MW for WSN) from TinyOS_1.x to TinyOS_2.x. (L. Pomante, S. Marchesani, D. Gregori, L. Corradetti, W. Tiberti, S. Pace).
 
 (L. Di Giuseppe)
 

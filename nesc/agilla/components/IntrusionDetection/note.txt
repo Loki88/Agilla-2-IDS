@@ -1,0 +1,16 @@
+RxnMgr pare essere il componente che si occupa di verificare 
+se una reaction deve essere eseguita per l'agente, in call RxnMgrI.runRxnMgr();
+
+
+La dimensione di Agilla compilato con WIDS e TKN15.4 è di:
+101028 bytes in ROM
+6463 bytes in RAM
+
+Agent Receiver mappati gli AMSend e Receive con NetworkInterfaceProxy verso TKN15.4
+
+
+Bug identificato in TKN154ActiveMessageP alle linee 531, 532 in corrispondenza dell'istruzione:
+
+memmove(payload, payload + PAYLOAD_OFFSET, payloadLength - PAYLOAD_OFFSET);
+    call Packet.setPayloadLength(frame, payloadLength - PAYLOAD_OFFSET);
+
